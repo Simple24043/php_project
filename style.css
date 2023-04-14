@@ -1,0 +1,38 @@
+body{
+    background-color:#86E5FF;
+}
+
+
+h1{
+    padding: 20px;
+    color: #FFC93C;
+    font-weight: bolder;
+    text-shadow:2px 2px #393f81 ;
+
+}
+.login{
+    padding: 5px 20px;
+    background-color:#FFC93C;
+    border-radius: 2px;
+    transition: 0.3s;
+
+}
+.login:hover{
+    background-color:#86E5FF;
+    color: #570707;
+
+}
+.branch_button{
+    padding: 5px 20px;
+    transition: transform .2s;
+
+
+}
+.branch:hover{
+    transform: scale(1.2)!important;
+}
+.branch:active{
+    transform: scale(1.2);
+    background-color: #9A616D;
+    color: #86E5FF;
+}
